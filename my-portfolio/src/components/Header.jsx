@@ -1,9 +1,9 @@
 const Header = () => {
   return (
     <header className='bg-slate-600'>
-      <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
+      <nav className="mx-auto flex items-center justify-between p-6">
         <section>
-          <h1 className='text-lg font-semibold leading-6 text-white'>
+          <h1 className='text-xl font-semibold leading-6 text-white'>
             Matheus.dev
           </h1>
         </section>
