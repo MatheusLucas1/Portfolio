@@ -2,15 +2,18 @@ import { Inter } from 'next/font/google'
 import Header from '@/components/Header'
 import Main from '@/components/Main'
 import Projects from '@/components/Projects'
+import Skills from '@/components/Skills'
+import Footer from '@/components/Footer'
+// pages/index.js
+import Head from 'next/head';
 
-const Home = () => {
+export default function Home() {
   return (
-    <main className='bg-slate-400'>
+    <div>
       <Header />
-      <Main />
+      <Skills/>
       <Projects />
-    </main>
-  )
+      <Footer /> 
+    </div>
+  );
 }
-
-export default Home;
