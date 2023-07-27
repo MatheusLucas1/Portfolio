@@ -1,9 +1,11 @@
-import ProjectCard from './ProjectCard';
+import TrybeTunes from '../projects/TrybeTunes/TrybeTunes';
+import TFC from '@/projects/TFC/TFC';
 
 const Projects = () => {
   return (
     <div>
-      <ProjectCard />
+      {/* <TrybeTunes /> */}
+      <TFC />
     </div>
   )
 }
