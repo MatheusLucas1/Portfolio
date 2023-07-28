@@ -1,5 +1,7 @@
 import { FaJs, FaNodeJs, FaDocker, FaPython, FaDatabase, FaServer, FaReact, FaHtml5, FaCss3, FaCheckSquare, FaPalette, FaCubes } from 'react-icons/fa';
-import { SiTypescript, SiMysql, SiSequelize, SiNextDotJs, SiTailwindcss } from 'react-icons/si';
+import { SiTypescript, SiMysql, SiSequelize, SiTailwindcss, SiNextdotjs } from 'react-icons/si';
+
+import { DiCss3, DiJavascript1 } from "react-icons/di";
 
 const Skills = () => {
   return (
@@ -7,27 +9,24 @@ const Skills = () => {
       <div>
         <h2 className="text-2xl font-bold">Back End</h2>
         <ul className="mt-2 flex flex-wrap">
-          <li className="flex items-center justify-center h-10 w-10 bg-blue-500 rounded-md text-white mx-2 my-1"><FaJs /></li>
-          <li className="flex items-center justify-center h-10 w-10 bg-blue-500 rounded-md text-white mx-2 my-1"><FaNodeJs /></li>
-          <li className="flex items-center justify-center h-10 w-10 bg-blue-500 rounded-md text-white mx-2 my-1"><FaDocker /></li>
-          <li className="flex items-center justify-center h-10 w-10 bg-blue-500 rounded-md text-white mx-2 my-1"><SiTypescript /></li>
-          <li className="flex items-center justify-center h-10 w-10 bg-blue-500 rounded-md text-white mx-2 my-1"><FaPython /></li>
-          <li className="flex items-center justify-center h-10 w-10 bg-blue-500 rounded-md text-white mx-2 my-1"><SiMysql /></li>
-          <li className="flex items-center justify-center h-10 w-10 bg-blue-500 rounded-md text-white mx-2 my-1"><SiSequelize /></li>
-          <li className="flex items-center justify-center h-10 w-10 bg-blue-500 rounded-md text-white mx-2 my-1"><FaServer /></li>
+          <li className="flex items-center justify-center h-20 w-20 bg-blue-500 rounded-md text-white mx-2 my-1"><FaNodeJs className="h-10 w-10"/></li>
+          <li className="flex items-center justify-center h-20 w-20 bg-blue-500 rounded-md text-white mx-2 my-1"><FaDocker className="h-10 w-10"/></li>
+          <li className="flex items-center justify-center h-20 w-20 bg-blue-500 rounded-md text-white mx-2 my-1"><SiTypescript className="h-10 w-10"/></li>
+          <li className="flex items-center justify-center h-20 w-20 bg-blue-500 rounded-md text-white mx-2 my-1"><FaPython className="h-10 w-10"/></li>
+          <li className="flex items-center justify-center h-20 w-20 bg-blue-500 rounded-md text-white mx-2 my-1"><SiMysql className="h-10 w-10"/></li>
+          <li className="flex items-center justify-center h-20 w-20 bg-blue-500 rounded-md text-white mx-2 my-1"><SiSequelize className="h-10 w-10"/></li>
+          
         </ul>
       </div>
       <div>
         <h2 className="text-2xl font-bold">Front End</h2>
         <ul className="mt-2 flex flex-wrap">
-          <li className="flex items-center justify-center h-10 w-10 bg-green-500 rounded-md text-white mx-2 my-1"><FaJs /></li>
-          <li className="flex items-center justify-center h-10 w-10 bg-green-500 rounded-md text-white mx-2 my-1"><FaReact /></li>
-          <li className="flex items-center justify-center h-10 w-10 bg-green-500 rounded-md text-white mx-2 my-1"><FaHtml5 /></li>
-          <li className="flex items-center justify-center h-10 w-10 bg-green-500 rounded-md text-white mx-2 my-1"><FaCss3 /></li>
-          <li className="flex items-center justify-center h-10 w-10 bg-green-500 rounded-md text-white mx-2 my-1"><FaCheckSquare /></li>
-          <li className="flex items-center justify-center h-10 w-10 bg-green-500 rounded-md text-white mx-2 my-1"><FaPalette /></li>
-          <li className="flex items-center justify-center h-10 w-10 bg-green-500 rounded-md text-white mx-2 my-1"><SiTailwindcss /></li>
-          <li className="flex items-center justify-center h-10 w-10 bg-green-500 rounded-md text-white mx-2 my-1"><SiNextDotJs /></li>
+          <li className="flex items-center justify-center h-20 w-20 bg-green-500 rounded-md text-white mx-2 my-1"><FaReact className="h-10 w-10"/></li>
+          <li className="flex items-center justify-center h-20 w-20 bg-green-500 rounded-md text-white mx-2 my-1"><FaJs className="h-10 w-10" /></li>
+          <li className="flex items-center justify-center h-20 w-20 bg-green-500 rounded-md text-white mx-2 my-1"><FaHtml5 className="h-10 w-10"/></li>
+          <li className="flex items-center justify-center h-20 w-20 bg-green-500 rounded-md text-white mx-2 my-1"><DiCss3 className="h-10 w-10"/></li>
+          <li className="flex items-center justify-center h-20 w-20 bg-green-500 rounded-md text-white mx-2 my-1"><SiTailwindcss className="h-10 w-10"/></li>
+          <li className="flex items-center justify-center h-20 w-20 bg-green-500 rounded-md text-white mx-2 my-1"><SiNextdotjs className="h-10 w-10"/></li>
         </ul>
       </div>
     </div>
