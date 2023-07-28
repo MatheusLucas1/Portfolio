@@ -6,7 +6,7 @@ import Footer from '@/components/Footer'
 
 export default function Home() {
   return (
-    <div className='bg-gray-900'>
+    <div className='bg-gray-900 text-white font-mono text-lg'>
       <Header />
       <Skills/>
       <Projects />
